@@ -11,4 +11,8 @@ o index.cmi : cp ../bs/src/index.cmi
 o index.cmj : cp ../bs/src/index.cmj
 o index.cmt : cp ../bs/src/index.cmt
 o index.res : cp ../../src/index.res
-build install.stamp : touch App.cmi App.cmj index.cmi index.cmj 
+o Render.cmi : cp ../bs/src/lib/Render.cmi
+o Render.cmj : cp ../bs/src/lib/Render.cmj
+o Render.cmt : cp ../bs/src/lib/Render.cmt
+o Render.res : cp ../../src/lib/Render.res
+build install.stamp : touch App.cmi App.cmj index.cmi index.cmj Render.cmi Render.cmj 

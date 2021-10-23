@@ -11,7 +11,7 @@ let link = {
     transition("color", ~duration=100),
     after([
       contentRule(" "->#text),
-      height(0.1->rem),
+      height(0.2->rem),
       width(100.0->pct),
       background(Theme.Colors.blue->hex),
       position(absolute),

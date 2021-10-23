@@ -3,6 +3,9 @@
 import * as React from "react";
 import * as Button from "./components/Button/Button.bs.js";
 import * as Render from "./lib/Render.bs.js";
+import * as GlobalStyles from "./lib/GlobalStyles.bs.js";
+
+GlobalStyles.includeStyles(undefined);
 
 function App(Props) {
   return React.createElement(React.Fragment, undefined, React.createElement(Button.make, {
@@ -16,4 +19,4 @@ export {
   make ,
   
 }
-/* react Not a pure module */
+/*  Not a pure module */

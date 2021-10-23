@@ -5,6 +5,6 @@ GlobalStyles.includeStyles()
 @react.component
 let make = () => {
   <>
-    <Button>{s("Click")}</Button>
+    <Button onClick={_ => Js.log("Clicked")}>{s("Click")}</Button>
   </>
 }

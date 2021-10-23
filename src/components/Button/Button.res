@@ -12,6 +12,6 @@ let button = (~block) => style(.[
 ])
  
 @react.component
-let make = (~children, ~block=false) => {
-  <button className={button(~block)}>children</button>
+let make = (~children, ~block=false, ~onClick) => {
+  <button onClick className={button(~block)}>children</button>
 }

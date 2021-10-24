@@ -16,9 +16,9 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "rescript:watch": "bsb -make-world -w",
-    "rescript:build": "bsb -make-world -clean",
-    "rescript:clean": "bsb -clean",
+    "res:watch": "bsb -make-world -w",
+    "res:build": "bsb -make-world -clean",
+    "res:clean": "bsb -clean",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
